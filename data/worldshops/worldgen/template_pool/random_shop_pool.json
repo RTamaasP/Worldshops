@@ -1,0 +1,168 @@
+{
+    "name": "worldshops:random_shop_pool",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/oak_spruce",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/acacia_tuff",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/acacia_deepslate",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/bamboo_deepslate",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/birch_dark_oak",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/birch_deepslate",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/cherry_bamboo",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/cherry_deepslate",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/cherry_tuff",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/dark_oak_deepslate",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/mangrove_deepslate",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/mangrove_diorite",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/oak_deepslate",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/oak_spruce",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/oak_tuff",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/pale_oak_mangrove",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/pale_oak_tuff",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "worldshops:shop_variants/spruce_diorite",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "shop_trigger":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {                    
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[worldshops_trigger]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "worldshops:all_shop_trigger"
+    },
+    "parent": "minecraft:story/root"
+}
