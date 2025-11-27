@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:enchanted_book",
+                    "predicates": {
+                        "minecraft:custom_data":{
+                            "worldshops_stackitem":true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "story/root",
+    "rewards": {
+        "function": "worldshops:test/branching"
+    }
+}

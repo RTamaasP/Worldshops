@@ -1,0 +1,48 @@
+{
+    "criteria": {
+        "primary_check":{
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:enchanted_book",
+                    "components":{
+                        "minecraft:custom_data": {
+                            "worldshops_stackitem": true
+                        }
+                    }
+                }
+            }
+        },
+        "spruce_log":{
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:enchanted_book",
+                    "components": {
+                        "minecraft:item_name": "spruce_log_si"
+                    }
+                }
+            }
+        },
+        "oak_log":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "enchanted_book",
+                    "components": {
+                        "minecraft:item_name": "worldshops:oak_log_si"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "worldshops:stackitem_universal_reward"
+    },
+    "parent": "minecraft:story/root",
+    "requirements": [
+        [
+            "primary_check"
+        ]
+    ]
+}

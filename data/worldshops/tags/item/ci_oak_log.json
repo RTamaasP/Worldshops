@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:flint",
+      "required": true,
+      "predicate": {
+        "components": {
+          "minecraft:custom_data": {
+            "your_custom_key": true
+          }
+        }
+      }
+    }
+  ]
+}

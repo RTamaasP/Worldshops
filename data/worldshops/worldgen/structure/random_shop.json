@@ -1,7 +1,7 @@
 {
     "type": "minecraft:jigsaw",
     "start_pool": "worldshops:random_shop_pool",
-    "biomes": "#is_overworld",
+    "biomes": "#worldshops:empty",
     "spawn_overrides": {},
     "size": 1,
     "start_height": {
